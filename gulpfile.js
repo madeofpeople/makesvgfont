@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 gulp.task('makeiconfont', function(){
   return gulp.src("./svg/**/*.svg")
   .pipe(fontcustom({
-    font_name: 'portsideIcons'
+    font_name: 'iconFont'
   }))
   .pipe(gulp.dest("./output"));
 });
